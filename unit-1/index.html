@@ -5,20 +5,42 @@
     <title>Book 1, Chapter 1, Example 1</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        hr{
-            width: 50%;
+        h1{
+            padding: 1rem;
+            border: 1px solid grey;
+            border-radius: 2rem;
+            color: #762b01;
+            font-size: 72px;
+            text-align: center;
         }
-        .world{
-            color: red;
-            font-size: 1rem;
+        .main{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+        .first{
+            background-color: antiquewhite;
+            width: 50px;
+        }
+        .second{
+            background-color: aquamarine;
+            width: 50px;
+        }
+        .third{
+            background-color: coral;
+            width: 50px;
         }
     </style>
 </head>
 <body>
-This is a web page with something important to say.
-<hr>
-<h1 style="color: blue">Hello</h1>
-<h1 class="world">World</h1>
-<h1 class="privet">Privet</h1>
+<h1>Hello world!</h1>
+// ctrl + alt + j - обернуть все в тег
+<div class="main">
+    <div class="first">Hello</div>
+    <div class="second">World</div>
+    <div class="third">All</div>
+</div>
 </body>
 </html>
